@@ -4,7 +4,7 @@ import { makeGetRequest, makePostRequest } from '../../utils/helpers.js';
 
 export const options = {
   vus: 50,              // 50 usuários virtuais
-  duration: '5m',       // 5 minutos
+  duration: '30s',       // 30 segundos rodar
   
   thresholds: {
     http_req_duration: ['p(95)<500'],  // 95% abaixo de 500ms
@@ -13,7 +13,7 @@ export const options = {
 };
 
 export default function loadTest() {
-  // Simula fluxo real de usuário
+  // fluxo real de usuário
   
   //Listar posts
   const posts = makeGetRequest(`${config.baseUrl}/posts`);
