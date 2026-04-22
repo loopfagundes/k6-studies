@@ -3,8 +3,8 @@ export const config = {
   
   // Configurações load testing
   loadTest: {
-    vus: 10,
-    duration: '30s',
+    vus: 10, // Usuarios virtuais
+    duration: '30s', // Duração do teste
   },
   
   // Configurações stress 
