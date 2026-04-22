@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "title": "Teste de Performance",
+      "body": "Este é um post de teste para k6",
+      "userId": 1
+    },
+    {
+      "title": "Load Testing",
+      "body": "Testando carga da API",
+      "userId": 2
+    }
+  ],
+  "users": [
+    { "id": 1, "name": "João" },
+    { "id": 2, "name": "Maria" }
+  ]
+}
