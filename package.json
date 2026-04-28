@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "test:load": "k6 run tests/load/load-test.js",
+        "test:load:dash": "k6 run --out web-dashboard tests/load/load-test.js",
+        "test:stress": "k6 run tests/stress/stress-test.js",
+        "test:stress:dash": "k6 run --out web-dashboard tests/stress/stress-test.js",
+        "test:spike": "k6 run tests/spike/spike-test.js",
+        "test:spike:dash": "k6 run --out web-dashboard tests/spike/spike-test.js",
+        "test:soak": "k6 run tests/soak/soak-test.js",
+        "test:soak:dash": "k6 run --out web-dashboard tests/soak/soak-test.js"
+    }
+}
