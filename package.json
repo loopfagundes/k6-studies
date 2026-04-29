@@ -7,6 +7,10 @@
         "test:spike": "k6 run tests/spike/spike-test.js",
         "test:spike:dash": "k6 run --out web-dashboard tests/spike/spike-test.js",
         "test:soak": "k6 run tests/soak/soak-test.js",
-        "test:soak:dash": "k6 run --out web-dashboard tests/soak/soak-test.js"
+        "test:soak:dash": "k6 run --out web-dashboard tests/soak/soak-test.js",
+        "test:ramping": "k6 run tests/scenarios/ramping-test.js",
+        "test:ramping:dash": "k6 run --out web-dashboard tests/scenarios/ramping-test.js",
+        "test:constant": "k6 run tests/scenarios/constant-test.js",
+        "test:constant:dash": "k6 run --out web-dashboard tests/scenarios/constant-test.js"
     }
 }
