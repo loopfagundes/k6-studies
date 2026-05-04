@@ -11,6 +11,8 @@
         "test:ramping": "k6 run tests/scenarios/ramping-test.js",
         "test:ramping:dash": "k6 run --out web-dashboard tests/scenarios/ramping-test.js",
         "test:constant": "k6 run tests/scenarios/constant-test.js",
-        "test:constant:dash": "k6 run --out web-dashboard tests/scenarios/constant-test.js"
+        "test:constant:dash": "k6 run --out web-dashboard tests/scenarios/constant-test.js",
+        "test:pervu": "k6 run tests/scenarios/per-vu-test.js",
+        "test:pervu:dash": "k6 run --out web-dashboard tests/scenarios/per-vu-test.js"
     }
 }
