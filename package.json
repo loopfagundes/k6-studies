@@ -19,6 +19,8 @@
         "test:multiple": "k6 run tests/scenarios/multiple-test.js",
         "test:multiple:dash": "k6 run --out web-dashboard tests/scenarios/multiple-test.js",
         "test:jwt": "k6 run tests/auth/jwt-auth.js",
-        "test:jwt:dash": "k6 run --out web-dashboard tests/auth/jwt-auth.js"
+        "test:jwt:dash": "k6 run --out web-dashboard tests/auth/jwt-auth.js",
+        "test:basic:spike": "k6 run tests/spike/basic-spike-test.js",
+        "test:basic:spike:dash": "k6 run --out web-dashboard tests/spike/basic-spike-test.js"
     }
 }
