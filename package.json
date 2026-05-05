@@ -13,6 +13,12 @@
         "test:constant": "k6 run tests/scenarios/constant-test.js",
         "test:constant:dash": "k6 run --out web-dashboard tests/scenarios/constant-test.js",
         "test:pervu": "k6 run tests/scenarios/per-vu-test.js",
-        "test:pervu:dash": "k6 run --out web-dashboard tests/scenarios/per-vu-test.js"
+        "test:pervu:dash": "k6 run --out web-dashboard tests/scenarios/per-vu-test.js",
+        "test:shared": "k6 run tests/scenarios/shared-test.js",
+        "test:shared:dash": "k6 run --out web-dashboard tests/scenarios/shared-test.js",
+        "test:multiple": "k6 run tests/scenarios/multiple-test.js",
+        "test:multiple:dash": "k6 run --out web-dashboard tests/scenarios/multiple-test.js",
+        "test:jwt": "k6 run tests/auth/jwt-auth.js",
+        "test:jwt:dash": "k6 run --out web-dashboard tests/auth/jwt-auth.js"
     }
 }
