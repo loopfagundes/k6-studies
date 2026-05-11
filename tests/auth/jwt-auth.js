@@ -26,7 +26,7 @@ export const options = {
   },
 };
 
-export default function () {
+export default function jwtAuthTest() {
   // PASSO 1: Registrar novo usuário
   const username = `testuser_${Date.now()}_${__VU}`;
   const password = `SuperSecret_${Date.now()}_${__VU}!`;
